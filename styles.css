@@ -57,12 +57,12 @@ p {
 @media only screen and (max-device-width: 900px) {
     .card {
         flex-basis: 100%;
-        height: 210px;
+        height: 310px;
         border-bottom: 2px solid #f3f2f2;
     }
 
     img {
-        height: 200px;
+        height: 300px;
     }
 
     #product-image {
@@ -74,11 +74,21 @@ p {
     }
 
     .card div:first-child {
-        height: 200px;
+        height: 300px;
     }
 
     strong {
         line-height: 2.0;
+        font-size: 36px;
+    }
+
+    #product-details div p:nth-child(2) {
+        font-size: 26px;
+    }
+
+    #product-container {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 
