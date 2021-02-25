@@ -1,0 +1,21 @@
+[
+    {
+        "Name": "Adidas Shoes",
+        "Price": "$2000",
+        "InStock": true,
+        "tags": ["Adidas", "Reebok"],
+        "Image_URL": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3092538/2018/6/28/a75b9b76-7ae8-4718-b4f2-efed12580ada1530177404711-Adidas-Originals-Men-White-Sneakers-8291530177404516-1.jpg"
+    }, {
+        "Name": "Nike",
+        "Price": "$2500",
+        "InStock": true,
+        "tags": ["Nike"],
+        "Image_URL": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3092538/2018/6/28/a75b9b76-7ae8-4718-b4f2-efed12580ada1530177404711-Adidas-Originals-Men-White-Sneakers-8291530177404516-1.jpg"
+    }, {
+        "Name": "U.S.P.A",
+        "Price": "$2200",
+        "InStock": true,
+        "tags": ["USPA"],
+        "Image_URL": "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/3092538/2018/6/28/a75b9b76-7ae8-4718-b4f2-efed12580ada1530177404711-Adidas-Originals-Men-White-Sneakers-8291530177404516-1.jpg"
+    }
+]
