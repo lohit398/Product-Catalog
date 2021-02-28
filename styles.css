@@ -75,6 +75,7 @@ p {
 
     #product-details {
         float: right;
+        width: 390px;
     }
 
     .card div:first-child {
