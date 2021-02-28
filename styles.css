@@ -18,9 +18,6 @@ section {
     width: -moz-fit-content;
 }
 
-.card div:first-child {
-    height: 400px;
-}
 
 .card div:nth-child(2) {
     height: 140px;
@@ -53,6 +50,11 @@ p {
     margin: 0px;
 }
 
+
+#cart-btns button {
+    margin: 10px;
+    width: 100%;
+}
 
 @media only screen and (max-device-width: 900px) {
     .card {
@@ -90,10 +92,34 @@ p {
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    #cart-btns button {
+        float: right;
+        background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+        height: 30px;
+        line-height: 1.5;
+        border-radius: 3px;
+    }
 }
 
 @media only screen and (min-device-width: 900px) {
     .card {
-        flex-basis: 25%;
+        flex-basis: 30%;
+        margin-bottom: 20px;
+    }
+
+    #product-details div:first-child {
+        text-align: center;
+    }
+
+    #product-image img:first-child {
+        width: 100%
+    }
+
+    #cart-btns button {
+        height: 30px;
+        background: linear-gradient(to bottom, #f7dfa5, #f0c14b);
+        border-radius: 5px;
+
     }
 }
